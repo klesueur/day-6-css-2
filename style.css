@@ -12,23 +12,38 @@
 .header {
   display: flex;
   background-color: aqua;
-  height: 15vh;
+  height: 10vh;
   position: absolute;
+  width: 100vw;
+
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+img {
+  height: 10vh;
 }
 
 .navbar {
   background-color: brown;
-  
+  flex: 2;
 }
 
 .nav-list {
-  display: flex;
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hamburger {
+  flex: 1;
 }
 
 .section {
